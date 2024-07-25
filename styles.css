@@ -75,6 +75,7 @@ header {
 }
 
 .header__container {
+    padding-top: 20px;
     width: 100%;
     max-width: 720px;
     margin: 0 auto;
@@ -123,3 +124,19 @@ button:active {
 .header__img--wrapper {
     padding: 20px;
 }
+
+.container {
+    padding: 56px 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 
+
+HIGHLIGHTS
+
+*/
