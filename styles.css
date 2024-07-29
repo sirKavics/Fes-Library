@@ -87,6 +87,25 @@ li {
     text-decoration: none;
 }
 
+.btn__menu {
+    background-color: transparent;
+    border: none;
+    font-size: 48px;
+    text-align: center;
+    color: #7342d6;
+}
+
+.menu__backdrop {
+    position: absolute;
+    background-color: #242424;
+}
+
+/*
+
+LANDING
+
+*/
+
 #landing {
     background-color: rgba(115, 66, 214, 0.1);
 }
