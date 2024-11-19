@@ -462,9 +462,26 @@ BOOKS PAGE
     font-size: 60px;
     color: #7342d6;
   }
+
+  .books__loading--asterisk {
+    display: none !important;
+  }
+
+  .books__loading .books__loading--asterisk {
+    display: block !important;
+  }
   
-  .fa-spinner {
-    animation: rotate 600ms infinite linear;
+  .fa-asterisk {
+    animation: rotate 1200ms infinite ease;
+  }
+
+  @keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
   }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
